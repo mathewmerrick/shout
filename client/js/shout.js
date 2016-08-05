@@ -654,7 +654,6 @@ $(function() {
 				if (settings.notification) {
 					pop.play();
 				}
-				favico.badge("!");
 				if (settings.badge && Notification.permission === "granted") {
 					var notify = new Notification(msg.from + " says:", {
 						body: msg.text.trim(),

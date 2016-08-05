@@ -8,7 +8,7 @@ module.exports = {
 	// @type     boolean
 	// @default  false
 	//
-	public: true,
+	public: false,
 
 	//
 	// Allow connections from this host.
@@ -166,7 +166,7 @@ module.exports = {
 		// @type     string
 		// @default  "shout-user"
 		//
-		nick: "shout-user",
+		nick: "floormat",
 
 		//
 		// Username
@@ -174,7 +174,7 @@ module.exports = {
 		// @type     string
 		// @default  "shout-user"
 		//
-		username: "shout-user",
+		username: "floormat",
 
 		//
 		// Real Name
@@ -182,7 +182,7 @@ module.exports = {
 		// @type     string
 		// @default  "Shout User"
 		//
-		realname: "Shout User",
+		realname: "floormat",
 
 		//
 		// Channels
@@ -190,7 +190,7 @@ module.exports = {
 		// @type     string
 		// @default  "#foo, #shout-irc"
 		//
-		join: "#foo, #shout-irc"
+		join: "#test"
 	},
 
 	//

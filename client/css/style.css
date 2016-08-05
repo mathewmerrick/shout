@@ -205,7 +205,7 @@ button, .user {
 	        transform: translate3d(180px, 0, 0);
 }
 #sidebar {
-	bottom: 52px;
+	bottom: 204px;
 	left: 0;
 	overflow: hidden;
 	/*overflow-y: auto;*/
@@ -650,7 +650,7 @@ button, .user {
 	display: inline-block;
 }
 #chat .self .text {
-	color: #999;
+	color: #777777;
 }
 #chat .error,
 #chat .error .from,
