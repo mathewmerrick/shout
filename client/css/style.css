@@ -1,3 +1,31 @@
+.footer-image img{
+	margin: auto;
+	display: block;
+	position: relative;
+	border:0;
+}
+
+top-space{
+        display:block;
+        margin-top:22px;
+        line-height:22px;
+}
+
+bottom-space{ 
+	display:block;
+	margin-top:0px; 
+	line-height:0px; 
+}
+
+img {
+    //position: relative;
+    display: table-cell;
+    vertical-align: top;
+    max-width:60%;
+    max-height:60%;
+    margin:auto;
+}
+
 @font-face {
   font-family: 'Lato';
   font-weight: 400;
@@ -76,7 +104,7 @@ body {
 }
 body {
 	background: #505d70;
-	background: #455164;
+	background: #981E32;
 	color: #222;
 	font: 16px Lato, sans-serif;
 	margin: 0;
@@ -211,6 +239,8 @@ button, .user {
 	/*overflow-y: auto;*/
 	-webkit-overflow-scrolling: touch;
 	position: absolute;
+	vertical-align:bottom;
+	border:0;
 	top: 0;
 	width: 220px;
 }
@@ -273,7 +303,7 @@ button, .user {
 #chat .title:before {
 	font: 14px FontAwesome;
 	float: left;
-	margin-top: 3px;
+	margin-top: 5px;
 	margin-right: 12px;
 	width: 14px;
 	text-align: center;
@@ -343,9 +373,9 @@ button, .user {
 	background: rgba(0, 0, 0, .06);
 	border-radius: 2px;
 	bottom: 4px;
-	height: 48px;
+	height: 200px;
 	left: 5px;
-	line-height: 48px;
+	line-height: 60px;
 	position: absolute;
 	text-align: center;
 	width: 210px;
@@ -359,9 +389,9 @@ button, .user {
 #footer .icon {
 	color: #9ca5b4;
 	display: inline-block;
-	font: 14px FontAwesome;
+	font: 18px FontAwesome;
 	line-height: 34px;
-	padding: 0px 12px;
+	padding: 10px 15px;
 }
 .signed-out #footer .sign-in {
 	display: inline-block;
