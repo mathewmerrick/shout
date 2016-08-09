@@ -8,7 +8,7 @@ module.exports = {
 	// @type     boolean
 	// @default  false
 	//
-	public: false,
+	public: true,
 
 	//
 	// Allow connections from this host.
